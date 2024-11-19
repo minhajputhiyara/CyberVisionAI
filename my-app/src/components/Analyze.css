@@ -1,0 +1,188 @@
+/* Main Container */
+.main-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  color: #ffffff;
+}
+
+/* Input Section */
+.input-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+}
+
+.analysis-input {
+  width: 100%;
+  height: 150px;
+  padding: 1rem;
+  background-color: #2d2d2d;
+  border: 1px solid #404040;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  resize: vertical;
+  margin-bottom: 1rem;
+  font-family: 'Monaco', 'Consolas', monospace;
+}
+
+.analysis-input:focus {
+  outline: none;
+  border-color: #28a745;
+  box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.25);
+}
+
+.analyze-button {
+  padding: 0.75rem 2rem;
+  background-color: #28a745;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.analyze-button:hover {
+  background-color: #218838;
+  transform: translateY(-1px);
+}
+
+.analyze-button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Results Container */
+.results-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+/* Prediction Cards */
+.prediction-card {
+  background-color: #2d2d2d;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #404040;
+}
+
+.card-header h2 {
+  font-size: 1.5rem;
+  color: #28a745;
+  margin: 0;
+}
+
+.technique-id, .tactics-id {
+  padding: 0.5rem 1rem;
+  background-color: #404040;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-size: 0.9rem;
+}
+
+/* Analysis Container */
+.analysis-container {
+  padding: 1rem;
+}
+
+.analysis-section {
+  margin-bottom: 1.5rem;
+}
+
+.analysis-title {
+  color: #28a745;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.analysis-content {
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+.bullet-point {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+.bullet {
+  color: #28a745;
+  margin-right: 0.5rem;
+}
+
+.text-content {
+  margin-bottom: 1rem;
+}
+
+/* Streaming Text Styles */
+.streaming-text {
+  position: relative;
+  min-height: 20px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.streaming-text::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 2px;
+  height: 1.2em;
+  background-color: #28a745;
+  margin-left: 2px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+/* Tactics Card Specific */
+.tactics-card .tactics-content {
+  padding: 1rem;
+  background-color: #363636;
+  border-radius: 8px;
+}
+
+.tactics-content h3 {
+  color: #28a745;
+  margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 1rem;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .technique-id, .tactics-id {
+    width: 100%;
+    text-align: center;
+  }
+}

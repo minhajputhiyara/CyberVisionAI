@@ -1,0 +1,85 @@
+/* src/components/Home.css */
+.home {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    color: #b3b3b3; /* Light grey text */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #28a745; /* Green color */
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #b3b3b3;
+  }
+  
+  .content-box {
+    background-color: #2a2a2a; /* Dark background for main content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro-section,
+  .analysis-guide,
+  .ttp-section,
+  .learning-resources {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #333333; /* Slightly darker box background */
+    border: 1px solid #444444; /* Dark border for contrast */
+    border-radius: 6px;
+  }
+  
+  .intro-section h3,
+  .analysis-guide h3,
+  .ttp-section h3,
+  .learning-resources h3 {
+    color: #28a745; /* Green color for section titles */
+    margin-bottom: 10px;
+  }
+  
+  .analysis-guide ol {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .analysis-guide li {
+    margin-bottom: 8px;
+  }
+  
+  .ttp-box {
+    padding: 10px;
+    background-color: #444444; /* Darker background for TTP description box */
+    border-radius: 5px;
+  }
+  
+  .ttp-section h4 {
+    color: #28a745; /* Green for TTP section titles */
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .learning-resources ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .learning-resources li {
+    margin-bottom: 6px;
+  }
+  
+  .learning-resources a {
+    color: #28a745; /* Green for links */
+    text-decoration: none;
+  }
+  
+  .learning-resources a:hover {
+    text-decoration: underline;
+  }
+  

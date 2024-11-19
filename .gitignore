@@ -1,0 +1,20 @@
+# Backend (Python) Specific Ignored Files
+backend/__pycache__/
+backend/tactic_model/
+backend/model_seed_2455_best.pt
+
+# React (Frontend) Specific Ignored Files
+my-app/node_modules/
+my-app/.pnp/
+my-app.pnp.js
+my-app/coverage/
+my-app/build/
+my-app/.DS_Store
+my-app/.env.local
+my-app/.env.development.local
+my-app/.env.test.local
+my-app/.env.production.local
+my-app/npm-debug.log*
+my-app/yarn-debug.log*
+my-app/yarn-error.log*
+
