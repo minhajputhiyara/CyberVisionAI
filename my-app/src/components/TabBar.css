@@ -1,0 +1,34 @@
+/* TabBar.css */
+
+.tab-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-bottom: 2px solid #28a745;
+    gap: 15px; /* Spacing between tabs */
+  }
+  
+  .tab-bar-item {
+    font-size: 16px;
+    color: #b3b3b3;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  .tab-bar-item:hover {
+    color: #ffffff;
+    background-color: #2a2a2a;
+  }
+  
+  .tab-bar-item.active {
+    color: #28a745;
+    background-color: #2a2a2a;
+    font-weight: bold;
+    border-bottom: 2px solid #28a745;
+  }
+  
