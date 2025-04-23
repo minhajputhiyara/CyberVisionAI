@@ -39,6 +39,22 @@ The project is organized into the following folders:
 
 ---
 
+## Screenshots
+
+### Screenshot 1
+![Screenshot 1](SS/ss1.png)
+
+### Screenshot 2
+![Screenshot 2](SS/ss2.png)
+
+### Screenshot 3
+![Screenshot 3](SS/ss3.png)
+
+### Screenshot 4
+![Screenshot 4](SS/ss4.png)
+
+---
+
 ## Getting Started
 ### Prerequisites
 - Python 3.8+
@@ -79,3 +95,4 @@ The project is organized into the following folders:
 
 ## Credits
 This project was developed to provide an intelligent and automated solution for analyzing and preventing cyber threats.
+
