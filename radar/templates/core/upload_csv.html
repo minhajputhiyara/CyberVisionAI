@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload CSV File</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 90%; /* Adjusted to 90% of viewport width */
+            max-width: 600px; /* Added max-width to limit container width */
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input[type="text"], input[type="file"] {
+            width: calc(100% - 42px); /* Adjusted width to accommodate for padding and border */
+            margin-bottom: 20px; /* Increased margin for better spacing */
+            padding: 15px; /* Increased padding for better appearance */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        label {
+            font-weight: bold;
+        }
+        button[type="submit"] {
+            width: 100%;
+            padding: 15px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            display: none; /* Hide error message by default */
+        }
+    </style>
+    <script>
+        function validateForm() {
+            var nameInput = document.querySelector('input[name="name"]');
+            var fileInput = document.getElementById('id_csv_file');
+            var errorMessage = document.getElementById('error-message');
+            var name = nameInput.value.trim();
+            var file = fileInput.files[0];
+            var fileSize = file ? file.size : 0;
+            var maxSize = 10485760; // 10 MB
+
+            if (name === '') {
+                errorMessage.textContent = 'Please enter a file name.';
+                errorMessage.style.display = 'block';
+                return false;
+            }
+
+            if (!file) {
+                errorMessage.textContent = 'Please select a file.';
+                errorMessage.style.display = 'block';
+                return false;
+            }
+
+            if (fileSize > maxSize) {
+                errorMessage.textContent = 'File size should be less than 10 MB.';
+                errorMessage.style.display = 'block';
+                return false;
+            }
+
+            // var fileExtension = file.name.split('.').pop().toLowerCase();
+            // if (fileExtension === 'csv') {
+            //     errorMessage.textContent = 'Please upload a .csv file.';
+            //     errorMessage.style.display = 'block';
+            //     return false;
+            // }
+
+            errorMessage.style.display = 'none';
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Upload CSV File</h2>
+        {% if messages %}
+            {% for message in messages %}
+                <div class="{% if message.tags == 'success' %}success-message{% else %}error-message{% endif %}">
+                    <p>{{ message }}</p> <!-- Wrap message content inside a paragraph tag -->
+                </div>
+            {% endfor %}
+        {% endif %}
+        <form method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+            {% csrf_token %}
+            <label for="id_name">File Name:</label>
+            <input type="text" id="id_name" name="name" placeholder="Enter File Name">
+            <label for="id_csv_file">Choose CSV File:</label>
+            <input type="file" id="id_csv_file" name="csv_file">
+            <button type="submit">Upload CSV File</button>
+            <div id="error-message" class="error-message"></div>
+        </form>
+    </div>
+</body>
+</html>

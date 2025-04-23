@@ -1,0 +1,88 @@
+Number of samples: 5025
+FULL Dataset: 5025
+TRAIN Dataset: 4020
+TEST Dataset: 1005
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Cost at epoch 0 is 3.22722
+Cost at epoch 1 is 2.16270
+Cost at epoch 2 is 1.40019
+Cost at epoch 3 is 0.93379
+Cost at epoch 4 is 0.63321
+Cost at epoch 5 is 0.44803
+Cost at epoch 6 is 0.31246
+Cost at epoch 7 is 0.22925
+Cost at epoch 8 is 0.17743
+Cost at epoch 9 is 0.13825
+Cost at epoch 10 is 0.10136
+Cost at epoch 11 is 0.09493
+Cost at epoch 12 is 0.07900
+Cost at epoch 13 is 0.06381
+Cost at epoch 14 is 0.05445
+Cost at epoch 15 is 0.04885
+Cost at epoch 16 is 0.05647
+Cost at epoch 17 is 0.03643
+Cost at epoch 18 is 0.03420
+Cost at epoch 19 is 0.03127
+Got 875 / 1005 with accuracy 87.06
+Number of unique classes in the data: 45
+              precision    recall  f1-score   support
+
+   T1003.001       1.00      0.90      0.95        21
+       T1005       0.60      0.46      0.52        13
+       T1012       0.25      0.20      0.22         5
+       T1016       0.82      0.82      0.82        11
+   T1021.001       0.90      1.00      0.95        19
+       T1027       0.91      0.90      0.90       137
+       T1033       1.00      0.70      0.82        10
+   T1036.005       0.73      0.57      0.64        14
+       T1041       0.67      0.82      0.74        17
+       T1047       0.92      0.80      0.86        15
+   T1053.005       0.90      0.90      0.90        21
+       T1055       0.94      0.84      0.89        57
+   T1056.001       1.00      1.00      1.00        13
+       T1057       0.93      0.88      0.90        16
+   T1059.003       0.94      0.90      0.92        69
+   T1070.004       0.65      0.88      0.75        17
+   T1071.001       0.96      0.76      0.85        29
+   T1074.001       0.67      0.40      0.50         5
+       T1078       0.94      0.94      0.94        34
+       T1082       0.83      0.93      0.88        27
+       T1083       0.83      0.95      0.88        20
+       T1090       0.90      0.93      0.91        28
+       T1095       0.83      0.50      0.62        10
+       T1105       0.77      0.92      0.84        52
+       T1106       0.81      0.88      0.84        40
+       T1110       1.00      0.92      0.96        13
+       T1112       0.71      0.81      0.76        21
+       T1113       0.90      0.90      0.90        10
+       T1140       0.93      0.97      0.95        91
+       T1190       0.91      1.00      0.95        10
+   T1204.002       0.76      0.76      0.76        17
+   T1218.011       0.91      0.91      0.91        11
+       T1219       0.83      1.00      0.91        10
+   T1484.001       0.83      1.00      0.91         5
+   T1518.001       0.75      0.86      0.80         7
+   T1543.003       0.71      1.00      0.83        10
+   T1547.001       1.00      0.92      0.96        13
+   T1548.002       1.00      1.00      1.00         5
+   T1552.001       0.60      0.75      0.67         4
+   T1562.001       0.85      0.89      0.87        19
+   T1566.001       0.94      1.00      0.97        17
+   T1569.002       0.00      0.00      0.00         5
+       T1570       1.00      0.73      0.84        11
+   T1573.001       0.57      0.40      0.47        10
+   T1574.002       1.00      1.00      1.00        16
+
+    accuracy                           0.87      1005
+   macro avg       0.82      0.81      0.81      1005
+weighted avg       0.87      0.87      0.87      1005
+
+Weighted Precision: 0.8703781762937902
+Weighted Recall: 0.8706467661691543
+Weighted F1 Score: 0.8667463688356494
+Macro Precision: 0.820624226507335
+Macro Recall: 0.8135122777529004
+Macro F1 Score: 0.8107230385562828
+Accuracy:  0.8706467661691543

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Cyber Vision AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cyber Vision AI</h1>
+        <p>Your ultimate destination for file analysis.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Upload Files</h2>
+            <p>Upload your pcap or csv files here:</p>
+            <ul>
+                <li><a href="{% url 'upload_pcap_file' %}">Upload PCAP File</a></li>
+                <li><a href="{% url 'upload_csv' %}">Upload CSV File</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>View Files</h2>
+            <p>View your pcap or csv files here:</p>
+            <ul>
+                <li><a href="{% url 'pcap_files' %}">Your PCAP Files</a></li>
+                <li><a href="{% url 'csv_files' %}">Your CSV Files</a></li>
+            </ul>
+        </section>
+        <!-- Add more sections or content here as needed -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Cyber Vision AI. All rights reserved.</p>
+    </footer>
+</body>
+</html>

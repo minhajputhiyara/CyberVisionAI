@@ -1,0 +1,201 @@
+id,as_owner,country,reputation,asn,malicious,suspicious,undetected,harmless,status
+,AMAZON-02,IE,0,16509,0,0,89,0,unknown
+,TIM SA,BR,0,26615,0,0,89,0,unknown
+,China Telecom Group,CN,0,4812,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,GTT Communications Inc.,US,0,3257,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,Vodafone Idea Ltd,IN,0,55410,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,IONOS SE,DE,0,8560,0,0,89,0,unknown
+,Vodafone GmbH,DE,0,3209,0,0,89,0,unknown
+,Akamai International B.V.,NL,0,20940,0,0,89,0,unknown
+,Equinix (EMEA) Acquisition Enterprises B.V.,NL,0,15830,0,0,89,0,unknown
+,ISP Alliance a.s.,CZ,0,47232,0,0,88,1,unknown
+,GOOGLE,US,0,15169,0,0,34,55,benign
+,AMAZON-02,IE,0,16509,0,0,89,0,unknown
+,GTT Communications Inc.,US,0,3257,0,0,89,0,unknown
+,GLOBALNET-AS,TN,0,37671,0,0,89,0,unknown
+,MTS PJSC,RU,0,8359,0,0,89,0,unknown
+,AKAMAI-AS,GB,0,16625,0,0,89,0,unknown
+,Central Telegraph Public Joint-stock Company,RU,0,8615,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,24,65,benign
+,,TR,0,,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,Orange,FR,0,3215,0,0,89,0,unknown
+,China Unicom Beijing Province Network,CN,0,4808,0,0,89,0,unknown
+,CERNET-ASN-BLOCK,US,0,4264,0,0,89,0,unknown
+,Voxility LLP,GB,0,3223,4,0,21,64,benign
+,,NL,0,,0,0,25,64,benign
+,Buroserv Australia Pty Ltd,AU,0,38835,0,0,89,0,unknown
+,COMCAST-7922,US,0,7922,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,JSC RetnNet,RU,0,57304,0,0,89,0,unknown
+,Akamai International B.V.,US,0,20940,0,0,89,0,unknown
+,AKAMAI-AS,US,0,16625,0,0,89,0,unknown
+,myLoc managed IT AG,DE,0,24961,0,0,23,66,benign
+,BACOM,CA,0,577,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,24,65,benign
+,Orion Telecomunicacoes Comercio e Servicos LTDA,BR,0,28308,0,0,89,0,unknown
+,UNINET,MX,0,8151,0,0,89,0,unknown
+,INFOnline GmbH,DE,0,43407,0,0,23,66,benign
+,Saudi Telecom Company JSC,SA,0,39891,1,0,24,64,benign
+,National Internet Backbone,IN,0,9829,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,INTERNAP-BLOCK-4,US,0,14743,0,0,89,0,unknown
+,EATEL,US,0,5009,0,0,89,0,unknown
+,Wow Solutions and Systems Pvt Ltd,IN,0,133590,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,COGECO-PEER1,US,0,13768,0,0,89,0,unknown
+,MTS PJSC,RU,0,29190,0,0,89,0,unknown
+,Networx-Bulgaria Ltd.,BG,0,34569,0,0,89,0,unknown
+,Telesat d.o.o.,BA,0,57888,0,0,89,0,unknown
+,,US,0,,0,0,89,0,unknown
+,LEVEL3,US,0,3356,0,0,89,0,unknown
+,Syscon Infoway Pvt. Ltd.,IN,0,45194,0,0,89,0,unknown
+,AMAZON-02,IE,0,16509,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,IVI TECNOLOGIA E COMUNICACAO LTDA,BR,0,262999,0,0,25,64,benign
+,Core-Backbone GmbH,DE,0,201011,0,0,24,65,benign
+,RENU,UG,0,327687,0,0,89,0,unknown
+,,US,0,,0,0,89,0,unknown
+,,US,0,,0,0,89,0,unknown
+,Akamai International B.V.,US,0,20940,0,0,89,0,unknown
+,AS-CRITEO,US,0,19750,0,0,89,0,unknown
+,ORANGE-COTE-IVOIRE,CI,0,29571,0,0,89,0,unknown
+,ASN-APPNEX,NL,0,29990,0,0,89,0,unknown
+,Joint Stock Company TransTeleCom,RU,0,31364,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,Seech-Infocom Ltd.,UA,0,43022,0,0,89,0,unknown
+,CV-Multimedia,CV,0,37517,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,23,66,benign
+,Weborama SA,FR,0,12516,0,0,25,64,benign
+,Akamai International B.V.,US,0,20940,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,SSTC-NET-1,US,0,30325,0,0,89,0,unknown
+,Telefonica de Argentina,AR,0,22927,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,PJSC MegaFon,RU,0,12714,0,0,89,0,unknown
+,RCS & RDS,RO,0,8708,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,PLATEAU,US,0,21782,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,ASN-CXA-ALL-CCI-22773-RDC,US,0,22773,0,0,89,0,unknown
+,,US,0,,0,0,33,56,benign
+,Telefonica Germany,DE,0,6805,0,0,89,0,unknown
+,,GB,0,,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,Mega-Line Ltd.,KG,0,41750,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,22,67,benign
+,Akamai International B.V.,US,0,20940,0,0,89,0,unknown
+,OVH SAS,FR,0,16276,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,28,61,benign
+,MICROSOFT-CORP-MSN-AS-BLOCK,US,0,8075,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,SWIFTNG-ASN,NG,0,36923,0,0,89,0,unknown
+,Akamai International B.V.,NL,0,20940,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,MICG,SL,0,327903,0,0,89,0,unknown
+,AKAMAI-AS,US,0,16625,0,0,89,0,unknown
+,Rostelecom,RU,0,12389,0,0,89,0,unknown
+,Rostelecom,RU,0,42610,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,SM Networks,BR,0,262571,0,0,89,0,unknown
+,Squiz Pty Ltd,AU,0,55532,0,0,89,0,unknown
+,RCS & RDS,RO,0,8708,0,0,89,0,unknown
+,Digi Spain Telecom S.l.u.,ES,0,57269,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,CLOUDFLARENET,,0,13335,0,0,24,65,benign
+,AMAZON-02,IE,0,16509,0,0,89,0,unknown
+,AMAZON-02,DE,0,16509,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,22,67,benign
+,NForce Entertainment B.V.,NL,0,43350,0,0,42,47,unknown
+,,US,0,,0,0,89,0,unknown
+,,DE,0,,0,0,89,0,unknown
+,V tal,BR,0,8167,0,0,89,0,unknown
+,COMCAST-7922,US,0,7922,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,23,66,benign
+,Cellcom Fixed Line Communication L.P,IL,0,1680,0,0,89,0,unknown
+,Limited Liability Company KYIVSKI TELEKOMUNIKATSIYNI MEREZHI,UA,0,25229,0,0,89,0,unknown
+,NForce Entertainment B.V.,NL,0,43350,0,0,89,0,unknown
+,FACEBOOK,IE,0,32934,0,0,33,56,benign
+,TWITTER,US,0,13414,0,0,89,0,unknown
+,Akamai International B.V.,US,0,20940,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,JSC ER-Telecom Holding,RU,0,51604,0,0,89,0,unknown
+,AMAZON-02,SG,0,16509,0,0,23,66,benign
+,Virgin Media,GB,0,5089,0,0,89,0,unknown
+,Excellmedia,IN,0,17754,0,0,89,0,unknown
+,Telefonica de Argentina,AR,0,22927,0,0,89,0,unknown
+,JSC ER-Telecom Holding,RU,0,41733,0,0,89,0,unknown
+,VTR BANDA ANCHA S.A.,CL,0,22047,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,CLOUDFLARENET,,0,13335,0,0,32,57,benign
+,GOOGLE,US,0,15169,0,0,22,67,benign
+,PAXIO-SFBA,US,0,36734,0,0,89,0,unknown
+,OVH SAS,FR,0,16276,0,0,89,0,unknown
+,TELEFONICA BRASIL S.A,BR,0,18881,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,Crnogorski Telekom a.d.Podgorica,ME,0,8585,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,,US,0,,0,0,89,0,unknown
+,BIDTELLECT,US,0,18568,0,0,89,0,unknown
+,UNINET,MX,0,8151,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,LEVEL3,GB,0,3356,0,0,89,0,unknown
+,Magyar Telekom plc.,HU,0,5483,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,Elisa Oyj,FI,0,719,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,Free SAS,FR,0,12322,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,Telecom Italia,IT,0,3269,0,0,89,0,unknown
+,,GB,0,,0,0,89,0,unknown
+,NForce Entertainment B.V.,NL,-18,43350,8,3,18,60,benign
+,INDINET SERVICE PRIVATE LIMITED,IN,0,132115,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,29,60,benign
+,"CANTV Servicios, Venezuela",VE,0,8048,0,0,89,0,unknown
+,AKAMAI-AS,DE,0,16625,0,0,89,0,unknown
+,ASN-CXA-ALL-CCI-22773-RDC,US,0,22773,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,PlusServer GmbH,DE,0,61157,0,0,25,64,benign
+,ASN-APPNEX,NL,0,29990,0,0,25,64,benign
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,Dialog Axiata PLC.,LK,0,18001,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,22,67,benign
+,,,0,,0,0,24,65,benign
+,AKAMAI-AS,NL,0,16625,0,0,89,0,unknown
+,Telecom Algeria,DZ,0,36947,0,0,89,0,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,ASN01-SOGE,CA,0,4540,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,Vivacom Bulgaria EAD,BG,0,8866,0,0,89,0,unknown
+,"Nepal Telecommunications Corporation, Internet Services",NP,0,23752,0,0,30,59,benign
+,GOOGLE,US,0,15169,0,0,89,0,unknown
+,COMCAST-7922,US,0,7922,0,0,89,0,unknown
+,Unitas Global Ltd,GB,0,15570,0,0,89,0,unknown
+,Jordan Data Communications Company LLC,JO,0,8376,0,0,89,0,unknown
+,INTERNAP-BLK3,US,0,13789,0,0,89,0,unknown
+,FASTLY,US,0,54113,0,0,88,1,unknown
+,AMAZON-02,US,0,16509,0,0,89,0,unknown
+,AKAMAI-AS,IT,0,16625,0,0,89,0,unknown
+,Telecom Italia,IT,0,3269,0,0,89,0,unknown
+,Orange Espagne SA,ES,0,12479,0,0,89,0,unknown
+,MT-MPLS,MA,0,36903,0,0,89,0,unknown
+,AMAZON-AES,US,0,14618,0,0,89,0,unknown
+,GOOGLE,US,0,15169,0,0,28,61,benign
+,Orange,FR,0,3215,0,0,89,0,unknown
+,Hamara System Tabriz Engineering Company,IR,0,47262,0,0,89,0,unknown
+,Private Joint Stock Company Datagroup,UA,0,197743,0,0,89,0,unknown
+,TE Data,EG,0,8452,0,0,89,0,unknown
+,,DE,0,,0,0,89,0,unknown
+,NForce Entertainment B.V.,NL,0,43350,0,0,89,0,unknown
+,National Internet Backbone,IN,0,9829,0,0,89,0,unknown

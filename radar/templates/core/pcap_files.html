@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uploaded PCAP Files</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 90%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-x: auto; /* Allow horizontal scrolling on small screens */
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            white-space: nowrap; /* Prevent line breaks in table cells */
+            overflow: hidden; /* Hide overflow content */
+            text-overflow: ellipsis; /* Display an ellipsis (...) to represent overflow content */
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .download-link {
+            color: #007bff;
+            text-decoration: underline;
+            cursor: pointer;
+            display: inline-block; /* Ensure link doesn't break into new line */
+            max-width: 200px; /* Limit link width to prevent overflow */
+            overflow: hidden; /* Hide overflow content */
+            text-overflow: ellipsis; /* Display an ellipsis (...) to represent overflow content */
+        }
+        .analyse-button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Uploaded PCAP Files</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>File Name</th>
+                    <th>Uploaded Date</th>
+                    <th>Status</th>
+                    <th>Download</th>
+                    <th>Convert</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for file in uploaded_files %}
+                <tr>
+                    <td>{{ file.name }}</td>
+                    <td>{{ file.uploaded_at }}</td>
+                    <td>{{ file.status }}</td>
+                    <td>
+                        <a href="{{ file.pcap_file.url }}" class="download-link" download="{{ file.name }}.pcap">{{ file.name }}</a>
+                    </td>
+                    <td>
+                        <form action="{% url 'analyse_pcap' %}" method="post">
+                            {% csrf_token %}
+                            <input type="hidden" name="pcap_file_id" value="{{ file.id }}">
+                            <button type="submit" class="analyse-button">Convert pcap to csv</button>
+                        </form>
+                    </td>
+                    <td>
+                        <button type="submit" class="analyse-button">Analyse</button>
+                    </td>
+                    
+                    
+                    
+                    
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
+
